@@ -1,25 +1,32 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <link rel="stylesheet" href="css/style.css">
     <title>Rock Paper Scissors</title>
 </head>
+
 <body>
+    <div class="wrapper">
+    </div>
+    <div class=top-layer>
     <h1>Rock Paper Scissors</h1>
     <div class="container-1" id="container-1">
         <div class="left-rock" id="left">
-            <img id="left-rock" class="vert-move" src="img/rock.png" alt="Rock moving vertically in Rock Paper Scissors game" >
+            <img id="left-rock" class="vert-move" src="img/rock.png"
+                alt="Rock moving vertically in Rock Paper Scissors game">
         </div>
         <div class="rps-text" id="mid">
-        <div id="rps-text">
-             
-        </div>
+            <div id="rps-text">
+
+            </div>
         </div>
         <div class="right-rock" id="right">
-            <img id="right-rock" class="vert-move" src="img/rock-right.png" alt="Rock moving vertically in Rock Paper Scissors game" >
+            <img id="right-rock" class="vert-move" src="img/rock-right.png"
+                alt="Rock moving vertically in Rock Paper Scissors game">
         </div>
     </div>
     <div class="container-2">
@@ -33,9 +40,11 @@
             <img id="scissors" src="img/scissors.png" alt="Scissors" onclick="rpmGame(this)">
         </div>
         <a href="index.html">Reset</a>
-        </div>
+    </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
