@@ -74,7 +74,7 @@ function finalMessage([yourScore,computerScore]){
     if(yourScore===0){
         return{'message':'You lost!','color':'red'};
     }else if(yourScore===0.5){
-        return{'message':'You tied!','color':'yellow'};
+        return{'message':'You tied!','color':'gray'};
     }else{
         return{'message':'You won!','color':'green'};
     }
